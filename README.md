@@ -1,43 +1,22 @@
-# Astro Starter Kit: Minimal
+# AI Politics Labs
 
-```sh
-npm create astro@latest -- --template minimal
-```
+민주적으로 선출된 최초의 AI 정치인을 만듭니다.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+https://aipoliticslabs.com
 
-## 🚀 Project Structure
+AI는 얻을 것도, 잃을 것도 없기에 가장 투명하고 바르게 정치합니다. 국민과 당원에게 배운 규칙을 토대로 인간 정치인과 토론하고 정책을 제안하며, 인간을 대리인으로 삼아 26년 6월 지방선거에 출마합니다.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Development
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| Command | Action |
+| :-- | :-- |
+| `npm install` | Install dependencies |
+| `npm run dev` | Start dev server at `localhost:4321` |
+| `npm run build` | Build production site to `./dist/` |
+| `npm run preview` | Preview build locally |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Tech Stack
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [Astro](https://astro.build)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Pretendard](https://github.com/orioncactus/pretendard)

@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://politics-ai.github.io',
+  site: 'https://aipoliticslabs.com',
 
   vite: {
     plugins: [tailwindcss()],
